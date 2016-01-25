@@ -14,6 +14,8 @@ include $(CLEAR_VARS)
 
 LOCAL_MODULE_TAGS := optional
 
+LOCAL_CFLAGS += -Os
+
 LOCAL_SRC_FILES := \
         $(call all-java-files-under, src)
 
