@@ -196,7 +196,7 @@ static jint registerHealthAppNative(JNIEnv *env, jobject object, jint data_type,
     int app_id;
 
     if (!sBluetoothHdpInterface) {
-        ALOGE("Failed to register health app. No Bluetooth Health Interface available");
+        ALOGE("Failed register health app. No Bluetooth Health Interface available");
         return -1;
     }
 
